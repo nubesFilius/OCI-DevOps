@@ -1,0 +1,10 @@
+**/.terraform/*
+*.terraform
+crash.log
+.vscode
+.git
+.DS_STORE
+*.tfstate
+*.tfstate.*
+.terraformrc
+terraform.rc
