@@ -9,6 +9,7 @@ Local Machine needs:
 - SSH Generated in RSA format (if local SSH keys are the prefered method of authentication, another method was left commented for use)
 
 *** Terraform ***
+```
 .
 ├── Modules
 │   ├── Compute
@@ -37,6 +38,7 @@ Local Machine needs:
 ├── ubuntuBastionProvisioner.sh
 ├── ubuntuGrafanaProvisioner.sh
 └── variables.tf
+```
 
 - A modularized approach was used. Feeding the tfvars, feeds the root variables.tf, which feeds the main.tf(our template), which feeds the child modules where specific module components(logical grouping of resources) is found.
 - Use this as an example to run the tfvars ```terraform apply -var-file="tfvars/useast.auto.tfvars"```
