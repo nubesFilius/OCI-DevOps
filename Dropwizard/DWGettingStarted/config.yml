@@ -1,0 +1,8 @@
+# template: Hello, %s!
+# defaultName: Stranger
+# memberCount: %d
+# defaultMemberCount: 6
+logging:
+  level: INFO
+  loggers:
+    com.example: DEBUG
