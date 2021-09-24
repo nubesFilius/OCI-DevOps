@@ -1,5 +1,3 @@
-Public API: http://158.101.112.134:8080/fibonacci-members
-
 Local Machine needs:
 - Terraform requirements:
   - Terraform v1.0.6
